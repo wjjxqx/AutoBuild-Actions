@@ -18,8 +18,8 @@ on:
 #    paths:
 #      - '.config'
 
-#  schedule:
-#    - cron: 0 8 * * 5
+  schedule:
+    - cron: 0 1 * * *
   
   watch:
     types: [started]
@@ -32,7 +32,7 @@ env:
   TZ: Asia/Shanghai
   UPLOAD_RELEASE: true
   UPLOAD_FIRMWARE: true
-  UPLOAD_BIN_DIR: false
+  UPLOAD_BIN_DIR: true
 
 jobs:
   build:
