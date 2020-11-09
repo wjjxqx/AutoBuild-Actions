@@ -104,6 +104,7 @@ rm -rf package/network/services/dropbear && mv -f package/lean/dropbear package/
 
 ExtraPackages git luci-app-autoupdate https://github.com/Hyy2001X main
 ExtraPackages git luci-theme-argon https://github.com/jerrykuku 18.06
+ExtraPackages git openwrt-OpenAppFilter https://github.com/Lienol master
 ExtraPackages git luci-app-argon-config https://github.com/jerrykuku master
 ExtraPackages git luci-app-adguardhome https://github.com/Hyy2001X master
 ExtraPackages svn luci-app-smartdns https://github.com/project-openwrt/openwrt/trunk/package/ntlf9t
@@ -118,7 +119,7 @@ ExtraPackages svn luci-app-socat https://github.com/xiaorouji/openwrt-package/tr
 #ExtraPackages svn luci-theme-opentomcat https://github.com/kenzok8/openwrt-packages/trunk
 # ExtraPackages svn luci-app-adguardhome https://github.com/Lienol/openwrt/trunk/package/diy
 # ExtraPackages git luci-app-adguardhome https://github.com/rufengsuixing master
-ExtraPackages git openwrt-OpenAppFilter https://github.com/Lienol master
+# ExtraPackages git openwrt-OpenAppFilter https://github.com/Lienol master
 }
 
 Diy-Part2() {
