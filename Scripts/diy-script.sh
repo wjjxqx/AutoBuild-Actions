@@ -4,7 +4,7 @@
 # AutoBuild Actions
 
 Diy_Core() {
-Author=Hyy2001
+Author=xqxwjj(河北新斯特电子工程有限公司)
 Default_Device=d-team_newifi-d2
 
 AutoUpdate_Version=`awk 'NR==6' ./package/base-files/files/bin/AutoUpdate.sh | awk -F'[="]+' '/Version/{print $2}'`
